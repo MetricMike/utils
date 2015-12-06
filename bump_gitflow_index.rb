@@ -22,7 +22,7 @@ def increment(part)
 end
 
 def increment_major(part)
-  "v#{part.to_s.gsub("v", "").to_i + 1}"
+  "#{part.to_s.gsub("v", "").to_i + 1}"
 end
 
 def major_bump?
